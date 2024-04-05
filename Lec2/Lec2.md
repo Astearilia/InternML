@@ -42,7 +42,7 @@ os.system(
 
 运行
 
-- 由于网络原因展示部分下载过程
+- 由于网络原因只展示部分下载过程
 
 ![](https://astearilia.oss-cn-beijing.aliyuncs.com/PicGo/HPC/LLM-LEC002001.png)
 
@@ -68,9 +68,9 @@ os.system(
 
 ![](https://astearilia.oss-cn-beijing.aliyuncs.com/PicGo/HPC/LLM-LEC002008.jpg)
 
-分析：原图是岩浆从黑色的岩石上流入大海，而不是模型认为的洞穴，且一般情况下洞穴不会向大海泻入
+分析：原图是岩浆从黑色的岩石上流入大海，而不是模型认为的洞穴，且一般情况下洞穴不会向大海“泻入”
 
-猜测是模型把黑色的玄武岩认作为洞穴，以此导致的错误
+猜测是模型把黑色的玄武岩认作为洞穴而导致的错误
 
 ### `Lagent` 工具调用 `数据分析` Demo 部署
 
